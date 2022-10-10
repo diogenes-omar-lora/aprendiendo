@@ -1,0 +1,15 @@
+<br><br><br>
+<div class="cuadro">
+    <h1 style="margin-left: 70px ;">Calculadora</h1>
+    <input type="number" [(ngModel)]="cantidad1" class="form form-control my-2">
+    <input type="number" [(ngModel)]="cantidad2" class="form form-control my-2">
+    <div class="botn">
+        <button type="button" (click)="sumar()" class="btn btn-primary">Multiplicar</button>
+    </div>
+    <span class="res">Resultado: {{resultado}}</span>
+</div>
+<div class="cuadro2">
+    <h3 id="operacion">Suma: </h3><p>({{cantidad1}} + {{cantidad2}}) = <strong>{{cantidad1 + cantidad2}}</strong></p>
+    <h3 id="operacion">Resta: </h3><p>({{cantidad1}} - {{cantidad2}}) = <strong>{{cantidad1 - cantidad2}}</strong></p>
+</div>
+<hr>

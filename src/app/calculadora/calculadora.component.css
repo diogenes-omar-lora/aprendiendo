@@ -1,0 +1,24 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuadro{
+    color: black;
+    width: 300px;
+    padding: 10px;
+    margin:20px auto;
+    border-radius: 40px 20px;
+    background: rgb(87,97,130);
+    background: linear-gradient(333deg, rgba(87,97,130,1) 30%, rgba(31,197,168,1) 72%);
+}
+.cuadro2{
+    color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding:2px 75px ;
+    background: rgb(87,97,130);
+    background: linear-gradient(333deg, rgba(87,97,130,1) 30%, rgba(31,197,168,1) 72%);
+    border-radius: 50px 80px;
+}
+.botn{
+    margin:10px 80px;
+}
